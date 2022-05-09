@@ -12,7 +12,12 @@ html, body {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
-
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100vw;
+}
 
 /*H1 styling*/
 @media(min-width: 300px){
