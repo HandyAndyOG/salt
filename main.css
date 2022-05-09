@@ -9,7 +9,8 @@
     font-family:'Courier New', Courier, monospace;
     
 }
-html {
+html, body {
+    max-width: 100%;
     overflow-x: hidden;
 }
 
