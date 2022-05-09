@@ -22,7 +22,7 @@ body {
 @media(min-width: 300px){
     h1{
         text-align: center;
-        font-size: 5vh;
+        font-size: 4rem;
         color: rgb(242, 242, 242)
     }
 }
@@ -50,7 +50,7 @@ body {
         -moz-transition: 0.5s;
         -o-transition: 0.5s;
         -ms-transition: 0.5s;
-        padding-top: 10vh;
+        padding-top: 20vh;
     }
 }
 @media(min-width:960px){
