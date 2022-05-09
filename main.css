@@ -7,6 +7,7 @@
     background: transparent;
     box-sizing: border-box;
     font-family:'Courier New', Courier, monospace;
+    overflow-x: hidden;
 }
 html {
     scroll-behavior: smooth;
@@ -17,8 +18,7 @@ html {
 @media(min-width: 300px){
     h1{
         text-align: center;
-        padding-top: 10vh;
-        font-size: 3vh;
+        font-size: 5vh;
         color: rgb(242, 242, 242)
     }
 }
@@ -42,6 +42,7 @@ html {
         flex-direction: column;
         position: relative;
         transition: 0.5s;
+        padding-top: 10vh;
     }
 }
 @media(min-width:960px){
