@@ -7,10 +7,10 @@
     background: transparent;
     box-sizing: border-box;
     font-family:'Courier New', Courier, monospace;
-    overflow-x: hidden;
 }
-html {
+html, body {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 
@@ -42,6 +42,10 @@ html {
         flex-direction: column;
         position: relative;
         transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        -ms-transition: 0.5s;
         padding-top: 10vh;
     }
 }
@@ -52,6 +56,10 @@ html {
         flex-direction: column;
         position: relative;
         transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        -ms-transition: 0.5s;
         width: 60vw;
         margin: 0 auto;
     }
@@ -114,7 +122,7 @@ p{
 #motivation_video{
     text-align: center;
     padding-top:5vh;
-    margin-bottom: 30%;
+    margin-bottom: 50%;
 }
 
 /*Change colour of navbar on scroll*/
