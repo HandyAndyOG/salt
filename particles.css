@@ -1,0 +1,26 @@
+@media(min-width: 300px){
+    #particles-js {
+        background: rgb(51, 51, 51);
+        height: 100vh;
+        width: 100vw;
+        position:fixed;
+    }
+}
+@media(min-width: 700px){
+    #particles-js {
+        background: rgb(51, 51, 51);
+        height: 100vh;
+        width: 100vw;
+        position:fixed;
+    }
+}
+@media(min-width: 960px){
+    #particles-js {
+        background: rgb(51, 51, 51);
+        height: 100vh;
+        width: 100vw;
+        position:fixed;
+        
+    }
+}
+    
