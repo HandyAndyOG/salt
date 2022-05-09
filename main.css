@@ -9,16 +9,10 @@
     font-family:'Courier New', Courier, monospace;
     
 }
-html, body {
-    scroll-behavior: smooth;
+html {
     overflow-x: hidden;
 }
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;
-}
+
 
 /*H1 styling*/
 @media(min-width: 300px){
