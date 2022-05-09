@@ -16,7 +16,7 @@ html, body {
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -138,7 +138,7 @@ p{
 #motivation_video{
     text-align: center;
     padding-top:5vh;
-    margin-bottom: 40%;
+    padding-bottom: 30vh;
 }
 
 /*Change colour of navbar on scroll*/
