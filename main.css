@@ -69,6 +69,17 @@ body {
         margin: 0 auto;
     }
 }
+@media(min-width: 300px){
+    #box_1{
+        margin-top: 20vh;
+    }
+}
+@media(min-width: 960px){
+    #box_1{
+        margin-top: 10vh;
+    }
+}
+
 .box_1 {
     flex: 1;
     order: 1;
