@@ -10,6 +10,7 @@ const menu = document.querySelector('.menu');
 const toggle = document.querySelector('.toggle');
 const sidenav = document.querySelector('.sidenav');
 const scroll = document.querySelector('.scroll');
+console.log(toggle);
 function toggleMenu() {
     if (menu.classList.contains("active")) {
         menu.classList.remove("active");
@@ -41,14 +42,23 @@ function toggleMenu() {
         for (i = 0; i < x.length; i++) {
           x[i].style.color = "rgb(51, 51, 51)";
         }
-        document.body.style.overflow = "hidden";
-        document.body.style.height = "100vh";
+
     }
 }
 
 /* Event Listener */
 
 toggle.addEventListener("click", toggleMenu, false);
+
+
+// const mot_click = document.getElementById('motivation');
+// function closeMenu() {
+//   if(mot_click.clicked == true) {
+//     document.querySelector('.toggle').innerHTML 
+//   }
+// }
+
+
 
 var messageArray = ["<span><</span>" + '/salt>'];
 var textPosition = 0;

@@ -17,9 +17,9 @@
 @media(min-width: 960px){
     .sidenav{
         height: 100%;
-        position: fixed;
+        position: relative;
         display: flex;
-        justify-content: center;
+        justify-content: right;
         z-index: 1;
         top: 0;
         overflow-x: hidden;
@@ -27,6 +27,7 @@
         background-color: transparent;
         width: 100%;
         padding: 0;
+        padding-right: 2vw;
       }
 }
 
@@ -53,40 +54,26 @@ a {
     padding: 7.5px 10px 7.5px 0;
     font-weight: lighter;
     text-decoration: none;
-    
 }
-.logo a {
-  text-decoration: none;
-  transition: 200ms;
+@media(min-width:300px){
+    .logo a {
+        text-decoration: none;
+        transition: 200ms;
+      }
 }
-.logo a:hover {
-  color: white;
-  text-decoration: none;
+@media(min-width:960px){
+    .logo a {
+        text-decoration: none;
+        transition: 200ms;
+        width: 17vw
+      }
 }
 
 
 .item.button {
     padding: 5px 5px;
 }
-@media(min-width: 300px){
-    .item:not(.button) a:hover,
-    .item a:hover::after {
-        color: white;
-        text-decoration: none;
-    }
-}@media(min-width: 700px){
-    .item:not(.button) a:hover,
-    .item a:hover::after {
-        color: white;
-        text-decoration: none;
-    }
-}@media(min-width: 960px){
-    .item:not(.button) a:hover,
-    .item a:hover::after {
-        color: rgb(242, 242, 242);
-        text-decoration: none;
-    }
-}
+
 
 @media(min-width: 300px){
     .item {
@@ -123,10 +110,6 @@ a {
     font-size: 20px;
     margin-right: 3vw;
     z-index: 10;
-}
-
-.toggle a:hover {
-  color: rgb(242, 242, 242);
 }
 .toggle i {
     color: rgb(242, 242, 242);

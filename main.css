@@ -11,6 +11,7 @@
     
 html, body {
 overflow-x: hidden;
+scroll-behavior: smooth;
 }
 
 body {
@@ -19,7 +20,6 @@ padding: 0;
 overflow: hidden;
 width: 100vw;
 }
-
 
 /*H1 styling*/
 @media(min-width: 300px){
@@ -112,7 +112,8 @@ p{
 #website_ex {
     font-style: italic;
 }
-#website_ex1 {
+
+#website_ex a{
     cursor:pointer;
     opacity: 1;
     background: -webkit-linear-gradient(#8080ff, #e6e6ff);
@@ -120,7 +121,11 @@ p{
     -webkit-text-fill-color: transparent;
     transform: translateY(0px);
     font-weight: bold;
+    font-style:normal;
 }
+
+
+
 /*Video Styling*/
 @media(min-width: 300px){
     video{
